@@ -7,7 +7,7 @@
 </p>
 
 ## 💻 Projeto
-Essa aplicação é uma calculadora
+Essa aplicação simula o funcionamento de uma calculadora, só é possível apertar os botões com o click do mouse.
 
 ## 🔃 Requisitos para utilizar
 
