@@ -117,3 +117,20 @@ input {
   margin-bottom: 0.75rem;
   cursor: pointer;
 }
+
+:root {
+  scrollbar-color: #8F8F8F #374151 ;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: #374151;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8F8F8F;
+  border-radius: 14px;
+}
