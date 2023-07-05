@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: 'Roboto Mono',monospace;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+}
+
+label {
+  padding: 1rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  height: 0.5rem;
+  background: #121214;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-top: 0.25rem;
+}
+
+.checkbox:checked + label .ball {
+  margin-left: 12rem;
+  transform: translateX(4px);
+}
+
+.ball {
+  border-radius: 100%;
+  padding: 1rem;
+  background: #F1F1F1;
+  transition: transform 0.2s linear;
+  cursor: pointer;
+  position: absolute;
+  margin-right: 6rem;
+}
+
+body.light {
+  background: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: #2b2b2b;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  width: 20rem;
+}
+
+h1, h2 {
+  margin: 1rem 0;
+}
+
+input {
+  color: white;
+  background: rgb(31,31,31);
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 25%;
+  cursor: pointer;
+  margin: 0.1875rem;
+}
+
+.num {
+  width: 4rem;
+  height: 4.1875rem;
+}
+
+.num:hover, .text1:hover {
+  background: black;
+}
+
+.text {
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  letter-spacing: 0.3125rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  background: white;
+  color: black;
+}
+
+.text1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  letter-spacing: 0.3125rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
