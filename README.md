@@ -22,6 +22,7 @@ Essa aplicação simula o funcionamento de uma calculadora, só é possível ape
 ## :hammer_and_wrench: Features 
 
 -   [ ] É possível calcular contas simples.
+-   [ ] Suporte a Libras
 
 ## 🆚 Versionamento/Versioning
 
