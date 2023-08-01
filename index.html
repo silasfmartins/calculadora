@@ -17,8 +17,8 @@
     <header>
       <input class="checkbox" id="checkbox" type="checkbox">
       <label for="checkbox">
-        <img width="20" src="./assets/img/moon.svg" alt="Yellow Moon - Lua Amarela">
-        <img width="20" src="./assets/img/sun.svg" alt="Yellow Sun, this sun has a ball in the center and streaks around it - Sol Amarelo">
+        <img width="20" height="100" src="./assets/img/moon.svg" alt="Yellow Moon - Lua Amarela">
+        <img width="20" height="100" src="./assets/img/sun.svg" alt="Yellow Sun, this sun has a ball in the center and streaks around it - Sol Amarelo">
         <div class="ball" />
       </label>
     </header>
@@ -26,9 +26,15 @@
       <h1>Calculadora</h1>
       <h2>Silas Martins</h2>
       <form name="Calculator">
-        <input type="text" class="text" name="text1" />
-        <input type="text" class="text1" name="text12" value="C" onclick="location.reload()" /><br>
-
+        <div id="buttons-main">
+          <label for="text" class="buttons">
+            <input type="text" class="text" name="text1" />
+          </label>
+          <label class="buttons" for="text1">
+            <input type="text" class="text1" name="text12" value="C" onclick="location.reload()" /><br>
+          </label>
+        </div>
+        
         <input type="button" class="num" name="btn9" value="9" onclick="displaynum(btn9.value)" />
         <input type="button" class="num" name="btn8" value="8" onclick="displaynum(btn8.value)" />
         <input type="button" class="num" name="btn7" value="7" onclick="displaynum(btn7.value)" />
